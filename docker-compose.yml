@@ -1,0 +1,7 @@
+version: "3"
+services:
+  db:
+    image: "postgres:10"
+    container_name: "docker_for_postgres"
+    ports:
+      - "5432:5432"
