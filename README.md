@@ -26,7 +26,7 @@ Retorno esperado: **CREATE ROLE**
 
 Criando a data base que será utilizado para persistencia dos dados
 
-`$ docker exec -it docker_for_postgres psql -U postgres -c "create database db_bot_api`
+`$ docker exec -it docker_for_postgres psql -U postgres -c "create database db_bot_api"`
 
 Retorno esperado: **CREATE DATABASE**
 
